@@ -1,0 +1,114 @@
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 10px;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FFB4B0;
+    border: 2px solid black;
+    padding: 5px 0;
+}
+
+nav li {
+    float: left;
+}
+
+nav li a {
+    display: inline-block;
+    text-align: center;
+    padding: 2px 10px;
+    border-right: 2px solid #000000;
+}
+
+section.song-togg-prop {
+	background-color: #4DD7FA;
+	border: 2px solid black;
+	padding: 15px;
+}
+
+select, form {
+	display: block;
+}
+
+.song-name-prop {
+	background-color: #FEFAC0;
+	border: 2px solid black;
+
+}
+
+section > div > div > h2 {
+	color: #785616;
+	margin: 0px;
+	padding: 0px;
+}
+
+section > div > div > ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #FEFAC0;
+
+}
+
+section li {
+	float: left;
+    padding-right: 15px;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+}
+
+.song-list-container {
+	padding: 10px;
+}
+
+div#flex-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	align-items: stretch;
+}
+
+div#flex-item-1 {
+	flex-grow: 1;
+	margin-right: 10px;
+	flex-basis: 15%;
+}
+
+div#flex-item-2 {
+	flex-grow: 5;
+}
+
+div#flex-item-2 > section {
+	height: 98.5%;
+}
+
+div#title-padding {
+	padding: 5px 0;
+}
+
+div.specific-song-group {
+	padding: auto 10px;
+}
+
+div#flex-checkbox-parent {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+div#button {
+	padding: 10px 15px;
+	text-align: center;
+}
+
+.button-styling {
+    border: 1px solid black;
+    border-radius: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
