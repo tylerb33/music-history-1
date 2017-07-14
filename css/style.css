@@ -53,7 +53,8 @@ section > div > div > ul {
 
 section li {
 	float: left;
-    padding-right: 15px;
+    padding-right: 5px;
+    font-weight: bold;
 }
 
 nav li a {
@@ -112,3 +113,10 @@ div#button {
     display: inline-block;
     font-size: 16px;
 }
+
+
+
+
+
+
+
