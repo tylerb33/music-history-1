@@ -1,6 +1,6 @@
 console.log ("it works");
-let wordsToRemove = ["*", "@", "!", "("]
-let contentArea = getElementById
+let wordsToRemove = ["*", "@", "!", "("];
+let contentArea = document.getElementById("song-list-container");
 let songs = [];
 
 songs[songs.length] = "The Logical Song > by Supertr@amp on the album Breakfast in America";
@@ -17,7 +17,11 @@ for (let i = 0; i < songs.length; i++) {
 	songs[i] = songs[i].replace('(', '');
 	songs[i] = songs[i].replace('@', '');
 	songs[i] = songs[i].replace('>', '-');
-
+	contentArea.innerHTML += `<div class="specific-song-group">
+										<ul>
+											<li>${songs[i]}</li>
+										</ul>
+									</div>`;
 
 }
 

@@ -8,121 +8,124 @@
 </head>
 
 <body>
-	<div>
-		<nav>
-			<ul>
-				<li><a href="#">View Music</a></li>
-				<li><a href="#">Add Music</a></li>
-				<li><a href="#">Profile</a></li>
-			</ul>
-		</nav>
-	</div>
-	<div id="flex-container">
-		<div id="flex-item-1">
-			<section class="song-togg-prop">
-				<div>
-					Song length:<br>
-					<input type="range" id="length-slider" value="50">
-				</div>
-				<div>
-					<div>Artist:</div>
-					<select>
-						<option value="options">Eric Church</option>
-						<option value="options">My Morning Jacket</option>
-						<option value="options">Bob Dylan</option>
-						<option value="options">Tupac</option>
-						<option value="options">Dawes</option>
-					</select><br>
-					
-					<div>Album:</div>
-					<select>
-						<option value="options">Carolina</option>
-						<option value="options">The Waterfall</option>
-						<option value="options">Blonde on Blonde</option>
-						<option value="options">All Eyez on Me</option>
-						<option value="options">Stories Don't End</option>
-					</select><br>
-				</div>
-				<div>
-					<div>Genre:</div>
-					<form>
-						<div id="flex-checkbox-parent">
-							<div id="flex-checkbox-item-1">
-								<input type="checkbox" name="genre" value="Rock">Rock
-							</div>
-							<div id="flex-checkbox-item-2">
-								<input type="checkbox" name="genre" value="Pop">Pop
-							</div>
-							<div id="flex-checkbox-item-3">
-							<input type="checkbox" name="genre" value="Blues">Blues
-							</div>
-							<div id="flex-checkbox-item-4">
-							<input type="checkbox" name="genre" value="Classical">Classical
-							</div>
-							<div id="flex-checkbox-item-5">
-							<input type="checkbox" name="genre" value="Pop">Pop
-							</div>
-							<div id="flex-checkbox-item-6">
-							<input type="checkbox" name="genre" value="Hip Hop">Hip Hop
-							</div>
-						</div>
-					</form>
-				</div>
-				<div id="button">
-					<button class="button-styling">Filter</button>
-				</div>
-			</section>
+	<div id="body-container">
+		<div>
+			<nav>
+				<ul>
+					<li><a href="#">View Music</a></li>
+					<li><a href="#">Add Music</a></li>
+					<li><a href="#">Profile</a></li>
+				</ul>
+			</nav>
 		</div>
-
-		
-		<div id="flex-item-2">
-			<section class="song-name-prop">
-				<div id="song-list-grab">
-					<div class="song-list-container">	
-						<div class="specific-song-group">
-						<section>
-							<div class="song-list-container">	
-								<div class="specific-song-group">
-									<h2>Holdin' My Own</h2>
-									<ul>
-										<li>Eric Church |</li>
-										<li>Mr. Misunderstood |</li>
-										<li>Country</li>
-									</ul>
-								</div>
-							
-	
-								<div class="specific-song-group">
-									<h2>Most People</h2>
-									<ul>
-										<li>Dawes |</li>
-										<li>Stories Don't End |</li>
-										<li>Alternative</li>
-									</ul>
-								</div>
-							
+		<div id="flex-container">
+			<div id="flex-item-1">
+				<section class="song-togg-prop">
+					<div>
+						Song length:<br>
+						<input type="range" id="length-slider" value="50">
+					</div>
+					<div>
+						<div>Artist:</div>
+						<select>
+							<option value="options">Eric Church</option>
+							<option value="options">My Morning Jacket</option>
+							<option value="options">Bob Dylan</option>
+							<option value="options">Tupac</option>
+							<option value="options">Dawes</option>
+						</select><br>
 						
-								<div class="specific-song-group">
-									<h2>Wonderful</h2>
-									<ul>
-										<li>My Morning Jacket |</li>
-										<li>Circuital |</li>
-										<li>Alternative</li>
-									</ul>
+						<div>Album:</div>
+						<select>
+							<option value="options">Carolina</option>
+							<option value="options">The Waterfall</option>
+							<option value="options">Blonde on Blonde</option>
+							<option value="options">All Eyez on Me</option>
+							<option value="options">Stories Don't End</option>
+						</select><br>
+					</div>
+					<div>
+						<div>Genre:</div>
+						<form>
+							<div id="flex-checkbox-parent">
+								<div id="flex-checkbox-item-1">
+									<input type="checkbox" name="genre" value="Rock">Rock
 								</div>
+								<div id="flex-checkbox-item-2">
+									<input type="checkbox" name="genre" value="Pop">Pop
+								</div>
+								<div id="flex-checkbox-item-3">
+								<input type="checkbox" name="genre" value="Blues">Blues
+								</div>
+								<div id="flex-checkbox-item-4">
+								<input type="checkbox" name="genre" value="Classical">Classical
+								</div>
+								<div id="flex-checkbox-item-5">
+								<input type="checkbox" name="genre" value="Pop">Pop
+								</div>
+								<div id="flex-checkbox-item-6">
+								<input type="checkbox" name="genre" value="Hip Hop">Hip Hop
+								</div>
+							</div>
+						</form>
+					</div>
+					<div id="button">
+						<button class="button-styling">Filter</button>
+					</div>
+				</section>
+			</div>
+
 			
+			<div id="flex-item-2">
+				<section class="song-name-prop">
+					<div id="song-list-grab">
+						<div class="song-list-container">	
+							<div class="specific-song-group">
+							<section>
+								<div id="song-list-container">	
+									<!-- <div class="specific-song-group">
+										<h2>Holdin' My Own</h2>
+										<ul>
+											<li>Eric Church |</li>
+											<li>Mr. Misunderstood |</li>
+											<li>Country</li>
+										</ul>
+									</div>
+								
+		
+									<div class="specific-song-group">
+										<h2>Most People</h2>
+										<ul>
+											<li>Dawes |</li>
+											<li>Stories Don't End |</li>
+											<li>Alternative</li>
+										</ul>
+									</div>
+								
+							
+									<div class="specific-song-group">
+										<h2>Wonderful</h2>
+										<ul>
+											<li>My Morning Jacket |</li>
+											<li>Circuital |</li>
+											<li>Alternative</li>
+										</ul>
+									</div>
 				
-								<div class="specific-song-group">
-									<h2>Life Goes On</h2>
-									<ul>
-										<li>Tupac |</li>
-										<li>All Eyez On Me |</li>
-										<li>Hip Hop</li>
-									</ul>
+					
+									<div class="specific-song-group">
+										<h2>Life Goes On</h2>
+										<ul>
+											<li>Tupac |</li>
+											<li>All Eyez On Me |</li>
+											<li>Hip Hop</li>
+										</ul>
+									</div> -->
 								</div>
-						</section>
-				</div>
-			</section>
+							</section>
+					</div>
+				</section>
+			</div>
 		</div>
 	</div>
 	<script type="text/javascript" script src="js-101.js"></script>

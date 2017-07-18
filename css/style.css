@@ -62,10 +62,6 @@ nav li a {
     text-align: center;
 }
 
-.song-list-container {
-	padding: 10px;
-}
-
 div#flex-container {
 	display: flex;
 	flex-wrap: wrap;
@@ -92,7 +88,7 @@ div#title-padding {
 }
 
 div.specific-song-group {
-	padding: auto 10px;
+	padding: 5px;
 }
 
 div#flex-checkbox-parent {
@@ -114,7 +110,10 @@ div#button {
     font-size: 16px;
 }
 
-
+div#body-container {
+    width: 60%;
+    margin: 0 auto;
+}
 
 
 
