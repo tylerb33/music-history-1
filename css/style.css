@@ -110,10 +110,36 @@ div#button {
     font-size: 16px;
 }
 
-div#body-container {
+section#body-container {
     width: 60%;
     margin: 0 auto;
 }
+
+.visible {
+  display: block;
+}
+
+.hidden {
+  display: none;
+}
+
+
+/*STYLING FOR ADD MUSIC PAGE*/
+
+/*#quasi-form-add input {
+    margin: 0 auto;
+    text-align: center;
+}*/
+
+#quasi-form-add {
+    text-align: center;
+}
+
+
+
+
+
+
 
 
 
